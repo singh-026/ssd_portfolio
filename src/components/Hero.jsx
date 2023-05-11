@@ -7,11 +7,6 @@ import { profileImage } from "../assets";
 import "../index.css";
 
 const Hero = () => {
-  const windowWidth = useRef(window.innerWidth);
-  const windowHeight = useRef(window.innerHeight);
-
-  console.log("width: ", windowWidth.current);
-  console.log("height: ", windowHeight.current);
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {

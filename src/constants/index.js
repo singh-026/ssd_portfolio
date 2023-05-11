@@ -117,7 +117,7 @@ const experiences = [
     company_name: "Mobcoder Technologies",
     icon: mobcoderIcon,
     iconBg: "white",
-    date: "June 2021 - June 2023",
+    date: "June 2021 - Present",
     points: [
       "Developing and maintaining web and mobile  applications using React.js / React Native and other related technologies.",
       "Designing Architectures for several projects in react native.",
