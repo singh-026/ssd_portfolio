@@ -43,9 +43,9 @@ const Navbar = () => {
           }}
         >
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Siddharth Singh &nbsp;
+          Siddharth Singh &nbsp;
           </p>
-          <span className="sm:block hidden">| friday_Dev</span>
+          {/* <span>| &nbsp; thefridaydev@gmail.com</span> */}
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">

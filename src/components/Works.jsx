@@ -14,8 +14,11 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  app_store_link,
   isOnPlayStore,
+  isOnAppStore,
   actionIcon,
+  appStoreIcon
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -42,6 +45,18 @@ const ProjectCard = ({
               >
                 <img
                   src={actionIcon}
+                  alt="source code"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            ) : null}
+            {isOnAppStore ? (
+              <div
+                onClick={() => window.open(app_store_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer  ml-[5px]"
+              >
+                <img
+                  src={appStoreIcon}
                   alt="source code"
                   className="w-1/2 h-1/2 object-contain"
                 />

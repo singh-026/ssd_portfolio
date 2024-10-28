@@ -47,18 +47,26 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a software developer with experience in TypeScript and JavaScript,
-        and expertise in frameworks like React, React Native and Three.js. I'm a
-        quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
+        I'm a software developer with 3+ yeears of experience in TypeScript and JavaScript,
+        and expertise in frameworks like React, React Native and Three.js.<br/>
+        
+      Core Competencies:
+        <li>React Native & React JS: Proficient in crafting exceptional user experiences across platforms.</li>
+        <li>Architecture & Design: Skilled in designing scalable and maintainable application architectures.</li>
+        <li>Performance Optimization: Demonstrated ability to enhance app performance through code refactoring, caching,and profiling.</li>
+        <li>Technology Stack: Proficient in Javascript (ES5 , ES6), TypeScript, Redux , Redux Toolkit , DevExpress ,
+        Firebase, Styled Components , Material UI , StoryBook , GitHub , Gitlab , HTML , CSS , SCSS</li>
+      I have collaborate closely with clients to create efficient,
+      scalable, and user-friendly solutions that solve real-world problems and now 
+      I am eager to contribute my skills and expertise to a dynamic team and drive innovation in the mobile application space.
+
         Let's work together to bring your ideas to life!
       </motion.p>
-
-      <div className="mt-20 flex flex-wrap gap-10">
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

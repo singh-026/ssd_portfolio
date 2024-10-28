@@ -13,12 +13,12 @@ const Hero = () => {
       strings: [
         "a React Developer",
         "a React Native Developer",
-        "a friday Dev ;) ",
+        "the friday Dev ;) ",
       ],
-      typeSpeed: 100,
+      typeSpeed: 50,
       loop: true,
       backDelay: 1000,
-      backSpeed: 100,
+      backSpeed: 50,
     });
 
     return () => {

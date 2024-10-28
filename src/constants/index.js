@@ -11,6 +11,7 @@ import {
   git,
   figma,
   mobcoderIcon,
+  lal10_logo,
   shopify,
   emamiSaathi,
   savage,
@@ -24,6 +25,11 @@ import {
   github,
   reactNative_background,
   hietIcon,
+  lal10Manufacturers,
+  lal10Brands,
+  brandsDashboard,
+  appleLogo,
+  websiteLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -113,11 +119,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer",
+    company_name: "Lal10",
+    icon: lal10_logo,
+    iconBg: "white",
+    date: "July 2023 - August 2024",
+    points: [
+      "Developed a dashboard that enables Brands  to track orders from initiation to delivery. Each order's details, including shipping, payment, and status, are clearly visible.",
+      "Led development of IAM, Finance,Super Admin and DPR modules , implementing scalable architecture and improving performance by 30% through code optimization.",
+      "Architected and implemented a streamlined deployment pipeline, reducing launch times by 20% and enhancing app stability by 30%.",
+      "Refactored legacy codebase to improve maintainability, scalability, and performance.",
+      "Enhanced user experience through A/B testing and iterative improvements.",
+    ],
+  },
+  {
     title: "React.js / React Native Developer",
     company_name: "Mobcoder Technologies",
     icon: mobcoderIcon,
     iconBg: "white",
-    date: "June 2021 - Present",
+    date: "June 2021 - June 2023",
     points: [
       "Developing and maintaining web and mobile  applications using React.js / React Native and other related technologies.",
       "Designing Architectures for several projects in react native.",
@@ -170,16 +190,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Emami Saathi",
+    name: "Brands Dashboard",
     description:
-      "EFR Saathi is an E-Pharmacy app that aims to provide medicine to rural areas through it's volunteers called Saathi",
+      "Developed a dashboard that enables Brands to track orders from initiation to delivery. Each order's details,including shipping, payment, and status, are clearly visible.",
     tags: [
       {
-        name: "react native",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "ror",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
@@ -187,8 +207,163 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "firebase-crashlytics",
+        name: "Firebase Crashlytics",
         color: "grey-text-gradient",
+      },
+      {
+        name: "DevExpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "grey-text-gradient",
+      },
+    ],
+    image: brandsDashboard,
+    isOnPlayStore: true,
+    actionIcon: websiteLogo,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.buyerapp&hl=en",
+  },
+  {
+    name: "Lal10 for Manufacturers",
+    description:
+      "A react native application which allows manufacturers to enquire and purchase fabrics, get finance and can submit daliy production reports within an organisation.",
+    tags: [
+      {
+        name: "React native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Firebase Cloud Messaging",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase Crashlytics",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Sentry",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Moengage",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: lal10Manufacturers,
+    isOnPlayStore: true,
+    actionIcon: googlePlay,
+    appStoreIcon:appleLogo,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.lal10.manufacturerapp&hl=en",
+        isOnAppStore:true,
+      app_store_link:"https://apps.apple.com/in/app/lal10-for-manufacturers/id6446427548"
+  },
+  {
+    name: "Lal10 for Brands",
+    description:
+      "A react native application which allows manufacturers to enquire and purchase fabrics, get finance and can submit daliy production reports within an organisation.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Firebase Cloud Messaging",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase Crashlytics",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Sentry",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Moengage",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lal10Brands,
+    isOnPlayStore: true,
+    actionIcon: googlePlay,
+    appStoreIcon:appleLogo,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.buyerapp&hl=en",
+      isOnAppStore:true,
+      app_store_link:"https://apps.apple.com/in/app/lal10-for-brands/id6444403900"
+  },
+  {
+    name: "Emami Saathi",
+    description:
+      "EFR Saathi is an E-Pharmacy app that aims to provide medicine to rural areas through it's volunteers called Saathi",
+    tags: [
+      {
+        name: "React native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color:"grey-text-gradient",
+      },
+      {
+        name: "Ruby on Rails",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Algolia",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase Crashlytics",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
       },
     ],
     image: emamiSaathi,
@@ -200,39 +375,39 @@ const projects = [
   {
     name: "Savage",
     description:
-      "Savage is a women fitness application , which aims at helping women overcome several physical issues and problems they have in their daily life.",
+      "A women fitness application ,Aimed at helping women overcome several physical issues and problems  in their day to day life.",
     tags: [
       {
-        name: "react native",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "one-signal",
+        name: "Onesignal",
         color: "pink-text-gradient",
       },
       {
-        name: "streamchat",
+        name: "Streamchat",
         color: "white-text-gradient",
       },
       {
-        name: "react-query",
+        name: "React Query",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase cloud messaging",
+        name: "Firebase Cloud Messaging",
         color: "green-text-gradient",
       },
       {
-        name: "firebase-crashlytics",
+        name: "Firebase Crashlytics",
         color: "pink-text-gradient",
       },
     ],
     image: savage,
-    isOnPlayStore: true,
+    isOnPlayStore: false,
     actionIcon: googlePlay,
     source_code_link:
       "https://play.google.com/store/apps/details?id=com.nativehealth.savage",
@@ -243,16 +418,28 @@ const projects = [
       "Ding is an Event Management application where people can register themselves as Users and Businesses in order to book and avail venues for the various events respectively.",
     tags: [
       {
-        name: "reactjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Nodejs",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Devexpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Styled Components",
+        color: "blue-text-gradient",
       },
     ],
     image: dingWeb,
@@ -263,16 +450,32 @@ const projects = [
       "HRM handles all the HR approaches, i.e. from onboarding to attendance control, to time monitoring and task management.",
     tags: [
       {
-        name: "reactjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Nodejs",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Styled Components",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "BootStrap",
+        color: "blue-text-gradient",
       },
     ],
     image: hrm,
@@ -283,20 +486,28 @@ const projects = [
       "A sample react native architecture in typescript with the following requirements",
     tags: [
       {
-        name: "react-native",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "redux-toolkit",
+        name: "Typescript",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "shopify-restyle",
+        name: "Shopify Restyle",
         color: "pink-text-gradient",
       },
       {
-        name: "babel-transformer",
+        name: "Babel Transformer",
         color: "white-text-gradient",
+      },
+      {
+        name: "Zod",
+        color: "green-text-gradient",
       },
     ],
     image: reactNative_background,
